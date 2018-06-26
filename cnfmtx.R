@@ -22,3 +22,5 @@ baseparam <- cbind(baseparam1,baseparam2)
 baseparam
 allratio <- as.numeric(levels(nrs))[nrs]/colSums(baseparam)
 allratio
+complement <- 1-allratio
+complement
